@@ -201,7 +201,7 @@
                             <div class="container">
                               <div class="row">
                                 <div class="col-sm-3 text-left">
-                                  02/09/2022
+                                  17/08/2021
                                 </div>
                                 <div class="col-sm-3 text-left">
                                   <strong>$100.00</strong>
