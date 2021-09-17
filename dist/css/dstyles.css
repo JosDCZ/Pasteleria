@@ -1,0 +1,30 @@
+body {
+  padding: 50px; /* this is just to get some space, unneccessary for the badge implementation itself */
+}
+
+.card3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card3 .card3-badge {
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  padding: 5px;
+  background: blue;
+  color: white;
+  transform: rotate(-20deg);
+}
