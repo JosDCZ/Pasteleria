@@ -225,7 +225,7 @@
                                 <i class="icon-speech warning font-large-2 float-left"></i>
                               </div>
                               <div class="media-body text-left pt-4">
-                                <h5>HORARIOS</h5>
+                                <h5>HORARIOS DE ATENCI</h5>
                                 <hr>
                                 </hr>
                                 <p><strong>Lunes a Sábado</strong></p>
