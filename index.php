@@ -89,7 +89,7 @@
 
   <h2 class="text-center">
     Los mejores pasteles hechos con
-    <small class="text-muted">amor y dedicación...</small>
+    <small class="text-muted">amor y dedicación para ti...</small>
   </h2>
   <br>
   <!--/.Carusel-->
