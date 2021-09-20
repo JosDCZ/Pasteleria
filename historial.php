@@ -101,7 +101,7 @@
 
   <h2 class="text-center pt-3">
     Historial
-    <small class="text-muted">de pedidos y mas</small>
+    <small class="text-muted">de pedidos y mas...</small>
   </h2>
   <hr>
   </hr>
