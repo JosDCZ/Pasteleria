@@ -348,7 +348,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-sm-6 text-left">
-                          Cheesecake sabor fresa
+                          Cheesecake de fresa
                         </div>
                         <div class="col font-weight-light text-left pr-5">
                           2
