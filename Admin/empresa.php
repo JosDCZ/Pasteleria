@@ -53,15 +53,14 @@ include "Config/Conexion.php"
                                 <span>Tablero</span>
                             </a>
                         </li>
-
-                        <li class="sidebar-item">
+                        <li class="sidebar-item active">
                             <a href="empresa.php" class='sidebar-link'>
                                 <i class="bi bi-briefcase-fill"></i>
                                 <span>Empresa</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item active ">
+                        <li class="sidebar-item  ">
                             <a href="empleados.php" class='sidebar-link'>
                                 <i class="bi bi-people-fill"></i>
                                 <span>Empleados</span>
@@ -146,211 +145,102 @@ include "Config/Conexion.php"
                     <div class="page-title">
                         <div class="row">
                             <div class="col-12 col-md-6 order-md-1 order-last">
-                                <h3>Empleados</h3>
-                                <p class="text-subtitle text-muted">Mostrar y Registrar empleados</p>
+                                <h3>Empresa/Negocio</h3>
+                                <p class="text-subtitle text-muted">Personalizar información</p>
                             </div>
                             <div class="col-12 col-md-6 order-md-2 order-first">
                                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.php">Tablero</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Empleados
+                                        <li class="breadcrumb-item active" aria-current="page">Empresa
                                         </li>
                                     </ol>
                                 </nav>
                             </div>
                         </div>
                     </div>
-                    <section class="section">
-                        <div class="card">
-                            <div class="card-header">
-                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#completeModal">
-                                    Añadir empleado
-                                </button>
-                            </div>
-
-
-                            <!--Form Modal Ingresar-->
-                            <div class="modal fade text-left" id="completeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myModalLabel33" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title" id="myModalLabel33">Añadir empleado</h4>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <i data-feather="x"></i>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="form-group has-icon-left">
-                                                <label for="Id-icon">ID</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="#" id="Id-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-key"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group has-icon-left">
-                                                <label for="Nombre-icon">Nombre</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="Juan Carlos" id="Nombre-icon" maxlength="50">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-person"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group has-icon-left">
-                                                <label for="Apellido-icon">Apellido</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="Perez Soza" id="Apellido-icon" maxlength="50">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-person"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group has-icon-left">
-                                                <label for="Correo-icon">Correo</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="jose145@gmail.com" id="Correo-icon" maxlength="75">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-envelope"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="form-group has-icon-left">
-                                                <label for="Contraseña-icon">Contraseña</label>
-                                                <div class="position-relative">
-                                                    <div class="input-group">
-                                                        <input type="Password" id="Contraseña-icon" maxlength="25" placeholder="************" Class="form-control">
-                                                        <div class="form-control-icon">
-                                                            <i class="bi bi-lock"></i>
-                                                        </div>
-                                                        <div class="input-group-append">
-                                                            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                    <section id="multiple-column-form">
+                        <div class="row match-height">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-body">
+                                            <form class="form">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group has-icon-left">
+                                                            <label for="first-name-icon">Nombre</label>
+                                                            <div class="position-relative">
+                                                                <input type="text" class="form-control" placeholder="Input with icon left" id="first-name-icon">
+                                                                <div class="form-control-icon">
+                                                                    <i class="bi bi-person"></i>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group has-icon-left">
-                                                <label for="admin-icon">Administrador</label>
-                                                <div class="position-relative">
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="adminradio" id="flexRadioDefault1" value="1">
-                                                        <label class="form-check-label" for="flexRadioDefault1">
-                                                            Si
-                                                        </label>
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group">
+                                                            <label for="first-name-icon">Logo</label>
+                                                            <div class="position-relative">
+                                                                <input type="file" class="form-control" placeholder="Input with icon left" id="first-name-icon">
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="adminradio" id="flexRadioDefault2" checked value="0">
-                                                        <label class="form-check-label" for="flexRadioDefault2">
-                                                            No
-                                                        </label>
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group has-icon-left">
+                                                            <label for="first-name-icon">Correo electronico</label>
+                                                            <div class="position-relative">
+                                                                <input type="email" id="city-column" class="form-control" placeholder="pasteleria@gmail.com" name="city-column">
+                                                                <div class="form-control-icon">
+                                                                    <i class="bi bi-envelope"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group has-icon-left">
+                                                            <label for="first-name-icon">Telefono</label>
+                                                            <div class="position-relative">
+                                                                <input type="number" class="form-control" placeholder="########" id="first-name-icon">
+                                                                <div class="form-control-icon">
+                                                                    <i class="bi bi-phone"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-12">
+                                                    <div class="form-group has-icon-left">
+                                                            <label for="first-name-icon">Horario</label>
+                                                            <div class="position-relative">
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                                                                <div class="form-control-icon">
+                                                                    <i class="bi bi-calendar-week"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-12">
+                                                    <div class="form-group has-icon-left">
+                                                            <label for="first-name-icon">Dirección</label>
+                                                            <div class="position-relative">
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                                                                <div class="form-control-icon">
+                                                                    <i class="bi bi-geo-alt"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
+                                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
-                                                <i class="bx bx-x d-block d-sm-none"></i>
-                                                <span class="d-none d-sm-block">Cancelar</span>
-                                            </button>
-                                            <button type="button" class="btn btn-primary ml-1" onclick="validarCampos()">
-                                                <i class="bx bx-check d-block d-sm-none"></i>
-                                                <span class="d-none d-sm-block">Registrar</span>
-                                            </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!--Form Modal Modificar-->
-                            <div class="modal fade text-left" id="ModificarModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myModalLabel33" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title" id="myModalLabel33">Modificar empleado</h4>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <i data-feather="x"></i>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="form-group has-icon-left">
-                                                <label for="mod-Id-icon">ID</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="#" id="mod-Id-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-key"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group has-icon-left">
-                                                <label for="mod-Nombre-icon">Nombre</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="Juan Carlos" id="mod-Nombre-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-person"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group has-icon-left">
-                                                <label for="mod-Apellido-icon">Apellido</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="Perez Soza" id="mod-Apellido-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-person"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group has-icon-left">
-                                                <label for="mod-Correo-icon">Correo</label>
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="jose145@gmail.com" id="mod-Correo-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-envelope"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group has-icon-left">
-                                                <label for="mod-Contraseña-icon">Contraseña</label>
-                                                <div class="position-relative">
-                                                    <div class="input-group">
-                                                        <input type="Password" id="mod-Contraseña-icon" maxlength="25" placeholder="************" Class="form-control">
-                                                        <div class="form-control-icon">
-                                                            <i class="bi bi-lock"></i>
-                                                        </div>
-                                                        <div class="input-group-append">
-                                                            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPasswordEdit()"> <span class="fa fa-eye-slash icon"></span> </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-light-secondary" onclick="LimpiarMod()" data-bs-dismiss="modal">
-                                                <i class="bx bx-x d-block d-sm-none"></i>
-                                                <span class="d-none d-sm-block">Cancelar</span>
-                                            </button>
-                                            <button type="button" class="btn btn-primary ml-1" onclick="validarCamposMod()">
-                                                <i class="bx bx-check d-block d-sm-none"></i>
-                                                <span class="d-none d-sm-block">Modificar</span>
-                                            </button>
-                                            <input type="hidden" id="hiddendata">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card-body">
-
-                                <div id="tablaMostrar"></div>
                             </div>
                         </div>
-
                     </section>
                 </div>
 

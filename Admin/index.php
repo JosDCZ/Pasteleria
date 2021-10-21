@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo/logo3.png" alt="Logo" srcset=""></a>
+                            <a href="index.html"><img style="height: 100px; width: 250px;" src="assets/images/logo/logo4.png" alt="Logo" srcset=""></a>
                         </div>
                         <div class="toggler">
                             <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -40,6 +40,13 @@
                             <a href="index.php" class='sidebar-link'>
                                 <i class="bi bi-grid-fill"></i>
                                 <span>Tablero</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a href="empresa.php" class='sidebar-link'>
+                                <i class="bi bi-briefcase-fill"></i>
+                                <span>Empresa</span>
                             </a>
                         </li>
 
