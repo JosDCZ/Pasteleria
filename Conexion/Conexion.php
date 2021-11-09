@@ -2,8 +2,7 @@
 /**
  * Clase que envuelve una instancia de la clase PDO
  * para el manejo de la base de datos
- */
-
+ */ 
 require_once 'login.php';
 date_default_timezone_set('America/El_Salvador');
 
