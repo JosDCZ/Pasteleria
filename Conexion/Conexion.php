@@ -4,6 +4,7 @@
  * para el manejo de la base de datos
  */
 
+ //confirmando cambios
 require_once 'login.php';
 date_default_timezone_set('America/El_Salvador');
 
