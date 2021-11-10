@@ -34,6 +34,15 @@
                                 <span>Empleados</span>
                             </a>
                         </li>
+
+                        <li class="sidebar-item  ">
+                            <a href="logica_pasteleria/categorias/" class='sidebar-link'>
+                                <i class="fa fa-birthday-cake"></i>
+                                <span>Productos</span>
+                            </a>
+                        </li>
+
+                        
                     </ul>
                 </div>
                 <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
