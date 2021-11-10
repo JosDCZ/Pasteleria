@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecake</title>
 
-    <?php include_once "layouts/headerStyle.php";?>
+    <?php include_once "../../layouts/headerStyle.php"; ?>
+    
 </head>
 
 <body>
     <div id="app">
-        <?php include_once "layouts/menuLateral.php"; ?>
+        <?php include_once "../../layouts/menuLateral.php"; ?>
         
         <div id="main" class='layout-navbar'>
             <header class='mb-3'>
-                <?php include_once "layouts/navbar.php" ?>
+                <?php include_once "../../layouts/navbar.php" ?>
             </header>
             <div id="main-content">
 
@@ -289,12 +290,12 @@
                     </section>
                 </div>
 
-                <?php include_once "layouts/footer.php"; ?>
+                <?php include_once "../../layouts/footer.php"; ?>
 
             </div>
         </div>
     </div>
-    <?php include_once "layouts/footerScript.php"; ?>
+    <?php include_once "../../layouts/footerScripts.php"; ?>
 </body>
 
 </html>
