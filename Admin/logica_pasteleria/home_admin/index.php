@@ -7,13 +7,13 @@
     <title>Ecake</title>
 
     <?php include_once "../../layouts/headerStyle.php"; ?>
-    
+
 </head>
 
 <body>
     <div id="app">
         <?php include_once "../../layouts/menuLateral.php"; ?>
-        
+
         <div id="main" class='layout-navbar'>
             <header class='mb-3'>
                 <?php include_once "../../layouts/navbar.php" ?>
@@ -127,8 +127,7 @@
                                                 <div class="col-6">
                                                     <div class="d-flex align-items-center">
                                                         <svg class="bi text-primary" width="32" height="32" fill="blue" style="width:10px">
-                                                            <use
-                                                                xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                            <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                         </svg>
                                                         <h5 class="mb-0 ms-3">Europe</h5>
                                                     </div>
@@ -144,8 +143,7 @@
                                                 <div class="col-6">
                                                     <div class="d-flex align-items-center">
                                                         <svg class="bi text-success" width="32" height="32" fill="blue" style="width:10px">
-                                                            <use
-                                                                xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                            <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                         </svg>
                                                         <h5 class="mb-0 ms-3">America</h5>
                                                     </div>
@@ -161,8 +159,7 @@
                                                 <div class="col-6">
                                                     <div class="d-flex align-items-center">
                                                         <svg class="bi text-danger" width="32" height="32" fill="blue" style="width:10px">
-                                                            <use
-                                                                xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                            <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                         </svg>
                                                         <h5 class="mb-0 ms-3">Indonesia</h5>
                                                     </div>
@@ -295,7 +292,8 @@
             </div>
         </div>
     </div>
-    <?php include_once "../../layouts/footerScripts.php"; ?>
+    <div>aqui</div>
+    <?php require_once "../../layouts/footerScript.php"; ?>
 </body>
 
 </html>
