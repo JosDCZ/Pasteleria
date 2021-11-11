@@ -4,8 +4,22 @@
 
 <link rel="stylesheet" href="../../assets/vendors/iconly/bold.css">
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+<link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+<link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+=======
+>>>>>>> Stashed changes
 <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
 <link rel="stylesheet" href="../../assets/vendors/bootstrap-icons/bootstrap-icons.css">
 <link rel="stylesheet" href="../../assets/css/app.css">
 <link rel="shortcut icon" href="../../assets/images/favicon.svg" type="image/x-icon">
+<<<<<<< Updated upstream
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
