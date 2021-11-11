@@ -12,15 +12,7 @@
 
 <body>
     <div id="app">
-<<<<<<< Updated upstream:Admin/logica_pasteleria/home_admin/index.php
         <?php include_once "../../layouts/menuLateral.php"; ?>
-=======
-<<<<<<< Updated upstream:Admin/index.php
-        <?php include_once "layouts/menuLateral.php"; ?>
-=======
-    <?php include_once "../../layouts/menuLateral.php" ?>
->>>>>>> Stashed changes:Admin/logica_pasteleria/home_admin/index.php
->>>>>>> Stashed changes:Admin/index.php
         
         <div id="main" class='layout-navbar'>
             <header class='mb-3'>
